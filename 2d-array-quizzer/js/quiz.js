@@ -28,7 +28,6 @@ for (var i = 0; i < questions.length; i+=1 ) {
   answer = questions[i][1];
   answer = answer.toLowerCase();
   response = prompt(question);
-  response = response;
   if (response === answer) {
     correctAnswers += 1;
     correct.push(question);
